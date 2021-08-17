@@ -2,3 +2,16 @@
     width: 100%;
     text-align: left;
 }
+
+h4{
+    background-color: azure;
+    line-height: 2;
+    margin: 0px;
+    font-size: 23px;
+}
+
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
+
