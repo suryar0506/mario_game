@@ -4,6 +4,11 @@ var noseY = "";
 
 function preload() {
 	world_start = loadSound("world_start.wav");
+	mario_jump = loadSound("jump.wav");
+	coin_collect = loadSound("coin.wav");
+	gameover = loadSound("gameover.wav");
+	mario_kill = loadSound("kick.wav");
+	mario_dies = loadSound("mariodie.wav");
 	setSprites();
 	MarioAnimation();
 }
